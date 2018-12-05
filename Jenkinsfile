@@ -7,4 +7,9 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            sh 'sleep 1000'
+        }
+    }
 }
